@@ -1,0 +1,69 @@
+body {
+  color: black;
+  background: rgb(134,134,235);
+  margin: 2px;
+}
+
+header {
+ font-size: 40px;
+  color: purple;
+  border-botom: solid 2px white;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Playwrite TZ";
+}
+
+.entrada{
+  font-family: "Archivo Narrow", sans-serif;
+  background: rgb(190,158,190);
+  margin: 20px;
+  padding: 20px;
+  font-size: 25px;
+  display: flex;
+}
+
+.desricao{
+  font-size: 20px;
+}
+
+.primeiro{
+  margin-right: 20px;
+}
+
+img{
+  height: 200px;
+}
+  
+.musicas{
+display: flex;
+overflow-x: auto;
+gap:10px;
+}
+
+p{
+  text-align: justify;
+}
+
+.outros{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+. img:hover {
+  opacity: 1.0;
+  border: solid 3px white;
+  border-radius: 20px;
+}
+
+.logo{
+  position: relative;
+  top: -40px;
+  left: 500px;
+  width: 200px;
+}
